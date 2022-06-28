@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="images/logo2.png" alt="logo" class="logo">
+                <ul>
+                    <li><img src="images/notification.png" alt=""></li>
+                    <li><img src="images/inbox.png" alt=""></li>
+                    <li><img src="images/video.png" alt=""></li>
+                </ul>
+            </div>
+
+            <div class="nav-right">
+                <div class="search-box">
+                    <img src="images/search.png" alt="search icon">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="images/profile-pic.png" alt="">
+                </div>
+            </div>
+
+            <!---------settings menu-------->
+            <div class="settings-menu">
+
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+                
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Jon Meyer</p>
+                            <a href="">See your peofile</a>
+                        </div>
+    
+                    </div>
+
+                    <hr>
+    
+                    <div class="user-profile">
+                        <img src="images/feedback.png" alt="">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="">Help us to improve the new design</a>
+                        </div>
+    
+                    </div>
+                    <hr>
+
+                    <div class="settings-links">
+                        <img src="images/setting.png" alt="" class="settings-icon">
+                        <a href="">Settings & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="images/help.png" alt="" class="settings-icon">
+                        <a href="">Help & Support<img src="images/arrow.png" alt="" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="images/display.png" alt="" class="settings-icon">
+                        <a href="">Display & Accessibility <img src="images/arrow.png" alt="" width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="images/logout.png" alt="" class="settings-icon">
+                        <a href="">Logout <img src="images/arrow.png" alt="" width="10px"></a>
+                    </div>
+
+                </div>
+               
+            </div>
+        </nav>
+    </header>
+
+    <main class="profile-body">
+        <section>
+
+            <div class="hero">
+                
+            </div>
+        </section>
+        <article class="post-container profile">
+            <img src="images/member-4.png" alt="profile picture" class="profile-pic">
+            
+            <div class="profile-page-info">
+                <div class="profile-info">
+                    <h2>Jack Nicholson</h2>
+                    
+                    <div class="profile-btn">
+                        <button class="btn-1"><img src="images/friends.png" alt="">Friends</button>
+                        <button class="btn-2"><img src="images/message.png" alt="">Messages</button>
+                    </div>
+                    
+                </div>
+
+                <small>120 friends - 20 Groups</small>
+                
+            
+                <div class="friends">
+                    <div class="friend-pic">
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt="">
+                        <img src="images/member-3.png" alt="">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                    
+                    <button><img src="images/more.png" alt=""></button>
+                </div>           
+                
+                 
+            </div>
+            
+        </article>
+
+        
+
+        
+
+        <article class="feed-layout">
+
+            <div class="feed-container left-col">
+                <section class="intro">
+                    
+                    <h4>intro</h4>
+                    <p>Believe in yourself and you can do incredible things. 
+                        Tell me your dreams and I'll help you achieve them</p>
+                    <hr>
+
+                    <div class=>
+                        
+                            <div class="info-links">
+                                <a href="#"><img src="images/profile-job.png" alt="">Director at CodeBaby.inc</a>
+                                <a href="#"><img src="images/profile-study.png" alt="">Studied MBA at Havard University</a>
+                                <a href="#"><img src="images/profile-study.png" alt="">Went to DPS Lagos</a>
+                                <a href="#"><img src="images/profile-home.png" alt="">Lives in Lagos, Nigeria</a>
+                                <a href="#"><img src="images/profile-location.png" alt="">From Lagos, Nigeria</a>
+                                
+                            </div>                           
+                            
+                       
+                    </div>
+
+
+                </section>
+
+
+                
+
+                <div class="intro">
+                    <div class="sidebar-title friend-title">
+                        <h4>Photos</h4>
+                        <a href="#">All Photos</a>
+                    </div>
+                    <div class="photos">
+                        <img src="images/photo1.png" alt="">
+                        <img src="images/photo2.png" alt="">
+                        <img src="images/photo3.png" alt="">
+                        <img src="images/photo4.png" alt="">
+                        <img src="images/photo5.png" alt="">
+                        <img src="images/photo6.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="intro">
+                    <div class="sidebar-title">
+                        <h4>Friends</h4>
+                        <a href="#">All Photos</a>
+                        
+                    </div>
+                    <small>120 (20 Mutual)</small>
+
+                    <div class="friend-photo-grid">
+                        <div class="friend-photo">
+                            <img src="images/member-1.png" alt="" class="">
+                            <p>Joseph A</p>
+                        </div>
+                        <div class="friend-photo">
+                            <img src="images/member-2.png" alt="" class="">
+                            <p>Joseph A</p>
+                        </div>
+                        <div class="friend-photo">
+                            <img src="images/member-3.png" alt="" class="">
+                            <p>Joseph A</p>
+                        </div>
+                        <div class="friend-photo">
+                            <img src="images/member-4.png" alt="" class="">
+                            <p>Joseph A</p>
+                        </div>
+                        <div class="friend-photo">
+                            <img src="images/member-5.png" alt="" class="">
+                            <p>Joseph A</p>
+                        </div>
+                        <div class="friend-photo">
+                            <img src="images/member-6.png" alt="" class="">
+                            <p>Joseph A</p>
+                        </div>
+                        <div class="friend-photo">
+                            <img src="images/member-7.png" alt="" class="">
+                            <p>Joseph A</p>
+                        </div>
+                        <div class="friend-photo">
+                            <img src="images/member-8.png" alt="" class="">
+                            <p>Joseph A</p>
+                        </div>
+                       
+                    </div>
+
+                </div>
+
+                
+                </div>
+            </div>
+
+            
+            <div class="feed-container right-col">
+                <div class="write-post-continer">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Jon Meyer</p>
+                            <small>Public<i class="fa-solid fa-sort-down"></i></small>
+                        </div>
+
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Jon"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="">Feeling Activity</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Jon Meyer</p>
+                                <span>June 24 2021, 13:40 pm</span>
+                                
+                            </div>
+
+                        </div>
+                        <a href=""><i class="fa-solid fa-sort-down"></i></a>
+                    </div>
+                    
+
+                    <p class="post-text">Check out more content like this at <span>damola.tech</span> on instagram<a href="#">#codebaby</a> <a href="#">#instagram</a></p> 
+                    <img src="images/feed-image-1.png" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" alt="">120</div>
+                            <div><img src="images/comments.png" alt="">100</div>
+                            <div><img src="images/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Jon Meyer</p>
+                                <span>June 24 2021, 13:40 pm</span>
+                                
+                            </div>
+
+                        </div>
+                        <a href=""><i class="fa-solid fa-sort-down"></i></a>
+                    </div>
+                    
+
+                    <p class="post-text">Check out more content like this at <span>damola.tech</span> on instagram<a href="#">#codebaby</a> <a href="#">#instagram</a></p> 
+                    <img src="images/feed-image-1.png" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" alt="">120</div>
+                            <div><img src="images/comments.png" alt="">100</div>
+                            <div><img src="images/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Jon Meyer</p>
+                                <span>June 24 2021, 13:40 pm</span>
+                                
+                            </div>
+
+                        </div>
+                        <a href=""><i class="fa-solid fa-sort-down"></i></a>
+                    </div>
+                    
+
+                    <p class="post-text">Check out more content like this at <span>damola.tech</span> on instagram<a href="#">#codebaby</a> <a href="#">#instagram</a></p> 
+                    <img src="images/feed-image-1.png" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" alt="">120</div>
+                            <div><img src="images/comments.png" alt="">100</div>
+                            <div><img src="images/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Jon Meyer</p>
+                                <span>June 24 2021, 13:40 pm</span>
+                                
+                            </div>
+
+                        </div>
+                        <a href=""><i class="fa-solid fa-sort-down"></i></a>
+                    </div>
+                    
+
+                    <p class="post-text">Check out more content like this at <span>damola.tech</span> on instagram<a href="#">#codebaby</a> <a href="#">#instagram</a></p> 
+                    <img src="images/feed-image-1.png" alt="" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png" alt="">120</div>
+                            <div><img src="images/comments.png" alt="">100</div>
+                            <div><img src="images/share.png" alt="">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
